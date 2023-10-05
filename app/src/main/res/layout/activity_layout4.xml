@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout4">
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="204dp"
+        android:layout_height="172dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/symbol_person" />
+
+    <TextView
+        android:id="@+id/namaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/namaEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama"
+        app:layout_constraintStart_toEndOf="@id/namaLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/nomorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namaLabel" />
+
+    <EditText
+        android:id="@+id/nomorEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nomor"
+        app:layout_constraintStart_toEndOf="@id/nomorLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nomorLabel" />
+
+
+    <TextView
+        android:id="@+id/alamatLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomorLabel" />
+
+    <EditText
+        android:id="@+id/alamatEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Alamat"
+        app:layout_constraintStart_toEndOf="@id/alamatLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/alamatLabel" />\
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@+id/alamatEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    </TableLayout>
+
+
+</TableLayout>

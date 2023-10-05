@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">test_apk</string>
+    <string name="nama">Muhammad Fadila</string>
+    <string name="nomor">08123456789</string>
+    <string name="Button">Button</string>
+    <string name="Person">Person</string>
+    <string name="Barcode">Barcode</string>
+    <string name="NewModelLaunch">New Model launch</string>
+    <string name="Tech">With New Technology</string>
+    <string name="Buy">Buy Now</string>
+    <string name="LogoFerrari">Ferrari</string>
+    <string name="LogoBmw">Bmw</string>
+
+
+</resources>
